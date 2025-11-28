@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
-// Chức năng tìm kiếm sản phẩm
 class SearchAndviewProductTest {
 	
 	// TC_SEARCH_01 Tìm kiếm sản phẩm hợp lệ
@@ -146,7 +145,7 @@ class SearchAndviewProductTest {
 	
 }
 
-// Chức năng xem chi tiết sản phẩm
+
  class ProductDetailTest {
 	 // TC_PDP_01 – Mở trang chi tiết sản phẩm từ danh sách
     def openProductDetailFromList() {
